@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 /**
  * The abstract syntax tree (AST) node representing a compilation unit, and so
- * the root of the AST.
+ * the root of the AST.抽象语法树的一个node代表一个编译单元，
  * 
  * It keeps track of the name of the source file, its package name, a list of
  * imported types, a list of type (eg class) declarations, and a flag indicating
@@ -14,8 +14,10 @@ import java.util.ArrayList;
  * maintains a CompilationUnitContext (built in pre-analysis) for declaring both
  * imported and declared types.
  * 
+ * 一个引入类型列表、一个类型声明（比如是class、interface、enum等），
+ * 
  * The AST is produced by the Parser. Once the AST has been built, three
- * successive methods are invoked:
+ * successive（连续的） methods are invoked:
  * 
  * (1) Method preAnalyze() is invoked for making a first pass at type analysis,
  * recursively reaching down to the member headers for declaring types and

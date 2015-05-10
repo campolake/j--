@@ -103,7 +103,7 @@ public class Main {
                         .tokenRep(), token.image());
             } while (token.kind() != EOF);
             errorHasOccurred |= scanner.errorHasOccured();
-            return;
+            System.out.println("printf token finish");
         }
 
         // Parse input
