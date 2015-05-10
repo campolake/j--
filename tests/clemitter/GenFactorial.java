@@ -1,4 +1,5 @@
 // Copyright 2013 Bill Campbell, Swami Iyer and Bahar Akbal-Delibas
+package clemitter;
 
 import jminusminus.CLEmitter;
 import static jminusminus.CLConstants.*;

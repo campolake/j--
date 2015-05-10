@@ -92,7 +92,7 @@ public class Main {
             System.err.println("Error: file " + sourceFile + " not found.");
             return;
         }
-
+        //仅仅是为为了输出符号
         if (debugOption.equals("-t")) {
             // Just tokenize input and print the tokens to STDOUT
             TokenInfo token;
